@@ -12,7 +12,7 @@
         android:id="@+id/bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:bl_bubbleColor="#FF0000">
+        app:bl_bubbleColor="@color/bubble_not_mine">
 
         <LinearLayout
             android:layout_width="match_parent"

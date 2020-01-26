@@ -71,11 +71,11 @@ public class MyChat extends AppCompatActivity {
 
                 if (FirebaseAuth.getInstance().getCurrentUser().getDisplayName().equals(model.getUsername())) {
                     layout.setGravity(Gravity.END);
-                    bubble.setBubbleColor(Color.BLUE);
+                    bubble.setBubbleColor(getResources().getColor(R.color.bubble_mine));
                     bubble.setArrowDirection(ArrowDirection.RIGHT);
                 } else {
                     layout.setGravity(Gravity.START);
-                    bubble.setBubbleColor(Color.GREEN);
+                    bubble.setBubbleColor(getResources().getColor(R.color.bubble_not_mine));
                     bubble.setArrowDirection(ArrowDirection.LEFT);
                 }
 
