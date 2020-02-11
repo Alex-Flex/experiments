@@ -18,5 +18,6 @@ public class PagerActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.pager);
         viewPager.setAdapter(new MyFragmentAdapter(getSupportFragmentManager()));
         viewPager.setCurrentItem(1);
+        getSupportActionBar().setTitle(R.string.welcome);
     }
 }

@@ -9,5 +9,16 @@
     <string name="both_wrong">Неверный email и пароль</string>
     <string name="load_your_photo">Загрузить своё фото</string>
     <string name="tipa_profile">Типа тут мой профиль</string>
-
+    <string name="storage_not_accessible">Хранилище медиа недоступно</string>
+    <string name="nothing_selected">Ничего не выбрано</string>
+    <string name="file_not_found">Файл не найден</string>
+    <string name="IO_Fail">IO Exception!</string>
+    <string name="success">Фото успешно установлено</string>
+    <string name="some_error">Some error occurred!</string>
+    <string name="pick_cancelled">Выбор фото отменён</string>
+    <string name="trouble">Упс… Что-то пошло не так</string>
+    <string name="more_about_you">Расскажите о себе…</string>
+    <string name="save">Сохранить</string>
+    <string name="placeholder">Здесь ещё ничего нет, нажмите, чтобы написать заметку о себе</string>
+    <string name="welcome">Добро пожаловать!</string>
 </resources>
