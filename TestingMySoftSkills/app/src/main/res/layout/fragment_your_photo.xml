@@ -14,28 +14,25 @@
         app:cardBackgroundColor="#ACACAC"
         app:cardCornerRadius="50dp" >
 
-        <androidx.core.widget.NestedScrollView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true">
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"
+                tools:src="@drawable/testing" />
+
+            <Button
+                android:id="@+id/load_photo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="253dp"
-                    tools:src="@tools:sample/backgrounds/scenic[1]" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
-
-            </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
+                android:layout_gravity="center"
+                android:text="@string/load_your_photo" />
+        </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

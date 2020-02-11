@@ -1,6 +1,8 @@
 package com.alexflex.testyoursoftskills;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
@@ -17,6 +19,9 @@ public class LoginActivity extends AppCompatActivity {
     private EditText login;     //имя пользователя
     private EditText password;  //его пароль
     private Button confirmer;   //кнопка для подтверждения
+    private SharedPreferences.Editor editor;
+    private final String EMAIL = "email";
+    private final String PASSWORD = "password";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,7 +82,12 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), R.string.wrong_password, Toast.LENGTH_LONG).show();
                     return;
                 }
+                editor = getPreferences(Context.MODE_PRIVATE).edit();
+                editor.putString(EMAIL, email);
+                editor.putString(PASSWORD, watchword);
+                editor.apply();
                 startActivity(new Intent(getApplicationContext(), PagerActivity.class));
+                finish();
             }
         });
     }

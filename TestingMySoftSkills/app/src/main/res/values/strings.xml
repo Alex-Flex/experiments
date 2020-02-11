@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Test Your Soft Skills</string>
+    <string name="app_name">Testing My Soft Skills</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Пароль</string>
@@ -8,5 +8,6 @@
     <string name="wrong_password">Неверный пароль</string>
     <string name="both_wrong">Неверный email и пароль</string>
     <string name="load_your_photo">Загрузить своё фото</string>
+    <string name="tipa_profile">Типа тут мой профиль</string>
 
 </resources>
