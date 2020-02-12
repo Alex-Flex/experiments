@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Testing My Soft Skills</string>
-    <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Пароль</string>
     <string name="action_sign_in">Войти</string>
@@ -21,4 +20,10 @@
     <string name="save">Сохранить</string>
     <string name="placeholder">Здесь ещё ничего нет, нажмите, чтобы написать заметку о себе</string>
     <string name="welcome">Добро пожаловать!</string>
+    <string name="okay">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="first_name_placeholder">Введите имя</string>
+    <string name="second_name_placeholder">Введите фамилию</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="your_family">Ваша фамилия</string>
 </resources>
